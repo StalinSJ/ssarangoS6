@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Vistas.Inicio();
+            MainPage = new NavigationPage(new Vistas.Inicio());
         }
     }
 }
